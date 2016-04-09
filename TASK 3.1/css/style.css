@@ -1,0 +1,134 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 960px;
+    margin: auto;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    -webkit-box-shadow: 3px 0px 28px 0px rgba(0, 0, 0, 0.48);
+    -moz-box-shadow: 3px 0px 28px 0px rgba(0, 0, 0, 0.48);
+    box-shadow: 3px 0px 28px 0px rgba(0, 0, 0, 0.48);
+}
+
+.wrapper {
+    margin-top: 25px;
+    height: auto;
+}
+
+h1 {
+    font-size: 50px;
+    display: block;
+    padding: 25px 0px 25px 25px;
+    font-family: sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    margin: 0 25px;
+    padding: 0;
+    background: gray;
+}
+
+nav li {
+    font: 14px 'Oswald', sans-serif;
+}
+
+.top-menu li {
+    background: gray;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 0;
+}
+
+.top-menu li.active {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    background: rgba(22, 10, 8, 0.69);
+    color: white;
+}
+
+.top-menu a {
+    color: white;
+}
+
+.conteiner {
+    margin-top: 50px;
+}
+
+aside {
+    float: left;
+    width: 250px;
+    background: white;
+    margin-left: 25px;
+}
+
+.aside-menu li {
+    list-style: none;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin: 0;
+    padding: 10px 30px;
+    background: white;
+}
+
+.aside-menu a {
+    color: black;
+    text-decoration: none;
+    }
+
+.aside-menu li.active {
+    padding-left: 50px;
+    background: rgba(136, 161, 165, 0.36);
+}
+.first {
+    border-top: 1px solid black;
+}
+section {
+    margin-left: 280px;
+}
+
+img {
+    border: 1px solid black;
+    margin: 0 50px;
+}
+
+blockquote {
+    padding: 40px 25px 0px 50px;
+
+}
+
+footer {
+    height: 50px;
+    margin: 25px;
+
+}
+
+.footer {
+    background: rgba(136, 161, 165, 0.36);
+}
+
+.button-menu li {
+
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+.button-menu li.active {
+    text-decoration: underline;
+}
+
+.button-menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.coper {
+    float: right;
+}
