@@ -15,7 +15,6 @@ body {
 
 .wrapper {
     margin-top: 25px;
-    height: auto;
 }
 
 h1 {
@@ -35,11 +34,8 @@ nav ul {
     background: gray;
 }
 
-nav li {
-    font: 14px 'Oswald', sans-serif;
-}
-
 .top-menu li {
+    font: 14px 'Oswald', sans-serif;
     background: gray;
     display: inline-block;
     padding: 10px 30px;
@@ -69,6 +65,7 @@ aside {
 }
 
 .aside-menu li {
+    font: 14px 'Oswald', sans-serif;
     list-style: none;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
@@ -101,13 +98,11 @@ img {
 
 blockquote {
     padding: 40px 25px 0px 50px;
-
 }
 
 footer {
     height: 50px;
     margin: 25px;
-
 }
 
 .footer {
@@ -115,7 +110,7 @@ footer {
 }
 
 .button-menu li {
-
+    font: 14px 'Oswald', sans-serif;
     display: inline-block;
     padding: 10px 30px;
 }
