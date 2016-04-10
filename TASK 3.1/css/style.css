@@ -91,9 +91,10 @@ section {
     margin-left: 280px;
 }
 
-img {
+.img{
     border: 1px solid black;
     margin: 0 50px;
+    width: 600px;
 }
 
 blockquote {
